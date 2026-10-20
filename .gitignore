@@ -1,0 +1,31 @@
+# environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# build artifacts
+build/
+dist/
+*.egg-info/
+
+# model downloads
+models/
+hf_cache/
+*.safetensors
+*.bin
+*.gguf
+
+# benchmark outputs
+bench/results/
